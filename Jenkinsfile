@@ -11,9 +11,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building.."
-                sh '''
-                pip install -r requirements.txt --break-system-packages
-                '''
             }
         }
         stage('Test') {
