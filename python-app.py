@@ -1,3 +1,1 @@
-print("Hello Sabre!")
-print(":-)")
-print("SRE Community!")
+print("Hello world!")
